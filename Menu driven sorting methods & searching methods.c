@@ -103,7 +103,7 @@ int Search(int pass_val)
 	else if(pass_val == 2)
 	printf("\n\t\t\t\t -:  ITERATION BINARY SEARCH  :-\n\n\n");
 	else
-	printf("\n\t\t\t\t -:  LINEAR BINARY SEARCH  :-\n\n\n");
+	printf("\n\t\t\t\t -:  LINEAR SEARCH  :-\n\n\n");
 	printf("Enter number of elements in the array :  ");
 	scanf("%d",&elements.num);
 	elements.arr = (int*)malloc(elements.num*sizeof(int));
